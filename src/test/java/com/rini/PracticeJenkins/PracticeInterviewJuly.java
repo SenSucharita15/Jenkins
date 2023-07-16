@@ -33,7 +33,7 @@ public class PracticeInterviewJuly {
 		wait = new WebDriverWait(wd, 10);
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void validateLoginWithCorrectDetails() {
 
 		// find the element in the DOM
