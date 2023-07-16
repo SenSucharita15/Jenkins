@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-16T09:28:33 EDT" name="Failed suite [Suite]" finished-at="2023-07-16T09:28:37 EDT" duration-ms="4493">
+  <suite started-at="2023-07-16T10:13:56 EDT" name="Suite" finished-at="2023-07-16T10:14:18 EDT" duration-ms="21951">
     <groups>
     </groups>
-    <test started-at="2023-07-16T09:28:33 EDT" name="Test(failed)" finished-at="2023-07-16T09:28:37 EDT" duration-ms="4493">
+    <test started-at="2023-07-16T10:13:56 EDT" name="Test" finished-at="2023-07-16T10:14:18 EDT" duration-ms="21951">
       <class name="com.rini.PracticeJenkins.PracticeInterviewJuly">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6892b3b6]" started-at="2023-07-16T09:28:33 EDT" name="setup" finished-at="2023-07-16T09:28:37 EDT" duration-ms="4269" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6e9175d8]" started-at="2023-07-16T10:13:56 EDT" name="setup" finished-at="2023-07-16T10:14:00 EDT" duration-ms="4181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLoginWithCorrectDetails()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6892b3b6]" started-at="2023-07-16T09:28:37 EDT" name="validateLoginWithCorrectDetails" finished-at="2023-07-16T09:28:37 EDT" duration-ms="155" status="FAIL">
+        <test-method signature="testframe()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6e9175d8]" started-at="2023-07-16T10:14:00 EDT" name="testframe" finished-at="2023-07-16T10:14:05 EDT" duration-ms="4910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testframe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6e9175d8]" started-at="2023-07-16T10:14:05 EDT" name="tearDown" finished-at="2023-07-16T10:14:05 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6e9175d8]" started-at="2023-07-16T10:14:05 EDT" name="setup" finished-at="2023-07-16T10:14:08 EDT" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testwindowhandle()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6e9175d8]" started-at="2023-07-16T10:14:08 EDT" name="testwindowhandle" finished-at="2023-07-16T10:14:13 EDT" duration-ms="4438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwindowhandle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6e9175d8]" started-at="2023-07-16T10:14:13 EDT" name="tearDown" finished-at="2023-07-16T10:14:13 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6e9175d8]" started-at="2023-07-16T10:14:13 EDT" name="setup" finished-at="2023-07-16T10:14:18 EDT" duration-ms="5021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLoginWithCorrectDetails()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6e9175d8]" started-at="2023-07-16T10:14:18 EDT" name="validateLoginWithCorrectDetails" finished-at="2023-07-16T10:14:18 EDT" duration-ms="62" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div#homelistwrap div:nth-of-type(3) div:nth-of-type(2) a"}
@@ -20,8 +44,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-APP06KDG', ip: '10.0.0.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\santa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 23d06ddd6471dbc77e2f0a66083e5ed4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\santa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6dd37d56ba686602ade89924a0670f8f
 *** Element info: {Using=css selector, value=div#homelistwrap div:nth-of-type(3) div:nth-of-type(2) a}]]>
             </message>
             <full-stacktrace>
@@ -31,8 +55,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-APP06KDG', ip: '10.0.0.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\santa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 23d06ddd6471dbc77e2f0a66083e5ed4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\santa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6dd37d56ba686602ade89924a0670f8f
 *** Element info: {Using=css selector, value=div#homelistwrap div:nth-of-type(3) div:nth-of-type(2) a}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -83,11 +107,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginWithCorrectDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6892b3b6]" started-at="2023-07-16T09:28:37 EDT" name="tearDown" finished-at="2023-07-16T09:28:37 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rini.PracticeJenkins.PracticeInterviewJuly@6e9175d8]" started-at="2023-07-16T10:14:18 EDT" name="tearDown" finished-at="2023-07-16T10:14:18 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.rini.PracticeJenkins.PracticeInterviewJuly -->
-    </test> <!-- Test(failed) -->
-  </suite> <!-- Failed suite [Suite] -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

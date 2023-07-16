@@ -58,7 +58,7 @@ public class PracticeInterviewJuly {
 
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void testframe() {
 		wd.get("https://www.browserstack.com");
 		wd.navigate().to("https://www.browserstack.com/selenium");
