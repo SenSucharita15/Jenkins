@@ -102,6 +102,6 @@ public class PracticeInterviewJuly {
 	@AfterMethod
 	public void tearDown() {
 		// wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		// wd.close();
+		wd.close();
 	}
 }

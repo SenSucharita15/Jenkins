@@ -5,6 +5,7 @@
     <classes>
       <class name="com.rini.PracticeJenkins.PracticeInterviewJuly">
         <methods>
+          <include name="testwindowhandle"/>
           <include name="tearDown"/>
           <include name="validateLoginWithCorrectDetails"/>
           <include name="setup"/>
